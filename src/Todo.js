@@ -2,7 +2,6 @@ import React from "react";
 import EditForm from "./EditForm"
 import { useContext } from "react";
 import { TodosContext } from "./contexts/todos.context";
-import './todo.css'
 import useToggle from "./hooks/useToggleState";
 import ListItem from '@mui/material/ListItem';
 import ListItemText from '@mui/material/ListItemText';
